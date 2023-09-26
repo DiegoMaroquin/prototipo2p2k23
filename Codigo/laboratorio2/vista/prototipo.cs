@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using vista;
 
 namespace vista
 {
@@ -26,12 +27,26 @@ namespace vista
 
         private void button1_Click(object sender, EventArgs e)
         {
-
+            DataTable dt = cn.llenarTbl(tabla);
+             = dt;
         }
 
         private void button4_Click(object sender, EventArgs e)
         {
-            
+            this.Close();
         }
     }
 }
+static class Program
+{
+    [STAThread]
+    static void Main()
+    {
+        Application.EnableVisualStyles();
+        Application.SetCompatibleTextRenderingDefault(false);
+        Application.Run(new prototipo());
+    }
+}
+
+
+

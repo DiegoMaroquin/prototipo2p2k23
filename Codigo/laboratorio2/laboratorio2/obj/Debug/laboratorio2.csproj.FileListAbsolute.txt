@@ -1,0 +1,2 @@
+C:\Users\Diego Marroquin\Desktop\carpeta\git\prototipo2p2k23\Codigo\laboratorio2\laboratorio2\obj\Debug\laboratorio2.csproj.AssemblyReference.cache
+C:\Users\Diego Marroquin\Desktop\carpeta\git\prototipo2p2k23\Codigo\laboratorio2\laboratorio2\obj\Debug\laboratorio2.csproj.CoreCompileInputs.cache

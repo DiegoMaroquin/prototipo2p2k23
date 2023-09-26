@@ -6,35 +6,28 @@ using System.Threading.Tasks;
 using laboratorio2;
 using System.Data.Odbc;
 using System.Data;
-
+using modelo
 
 namespace laboratorio2
 {
     public class Controldor
     {
-       sentensias sn = new sentensias();
+        sentensias sn  sentensias();
 
-            {
-            string consulta = "select * from  alumnos";
-            OdbcDataAdapter dt = sn.llenartb2(consulta);
+        public OdbcDataAdapter llenarTbl(string tabla)// metodo  que obtinene el contenio de una tabla
+        {
+            //string para almacenar los campos de OBTENERCAMPOS y utilizar el 1ro
+            string sql = "SELECT * FROM " + tabla + "  ;";
+            OdbcDataAdapter dataTable = new OdbcDataAdapter(sql, con.conexion());
+            return dataTable;
+        }
+
+        public DataTable llenarTbl(string tabla)
+        {
+            OdbcDataAdapter dt = sn.llenarTbl(tabla);
             DataTable table = new DataTable();
             dt.Fill(table);
             return table;
         }
-        public void CargarTablas(ComboBox comboBox1, string BD)
-        {
-            OdbcDataAdapter dt = sn.buscartbl(BD);
-            DataTable table = new DataTable();
-            dt.Fill(table);
-            int contador = 0;
-            comboBox1.Items.Clear();
-            foreach (DataRow Row in table.Rows)
-            {
-                comboBox1.Items.Add(table.Rows[contador][0].ToString());
-                contador++;
-            }
-
-
-        }
     }
-    
+}

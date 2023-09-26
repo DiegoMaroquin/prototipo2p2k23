@@ -1,0 +1,6 @@
+C:\Users\Diego Marroquin\Desktop\carpeta\git\prototipo2p2k23\Codigo\laboratorio2\modelo\bin\Debug\modelo.dll
+C:\Users\Diego Marroquin\Desktop\carpeta\git\prototipo2p2k23\Codigo\laboratorio2\modelo\bin\Debug\modelo.pdb
+C:\Users\Diego Marroquin\Desktop\carpeta\git\prototipo2p2k23\Codigo\laboratorio2\modelo\obj\Debug\modelo.csproj.AssemblyReference.cache
+C:\Users\Diego Marroquin\Desktop\carpeta\git\prototipo2p2k23\Codigo\laboratorio2\modelo\obj\Debug\modelo.csproj.CoreCompileInputs.cache
+C:\Users\Diego Marroquin\Desktop\carpeta\git\prototipo2p2k23\Codigo\laboratorio2\modelo\obj\Debug\modelo.dll
+C:\Users\Diego Marroquin\Desktop\carpeta\git\prototipo2p2k23\Codigo\laboratorio2\modelo\obj\Debug\modelo.pdb
